@@ -1,0 +1,797 @@
+html,body{
+    width:100%;
+    overflow-x:hidden;
+  }
+
+.container-fluid{
+    background-image: url(./IMAGENES/Central/imagenCentral.png);
+    height: 150vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: relative;
+}
+
+
+/**********nav items*********/
+#nav a{
+    color: rgb(232, 226, 226);
+    text-decoration: none;
+    font-weight: 700;
+    }
+/* media queries 320mobile 768table 1280desktop */
+@media screen and (min-width:320px) and (max-width:580px) {
+    #nav a{
+        font-size: 10px;
+        font-weight:500;
+        margin-left: -50px;
+        margin-right: -10px;
+        
+    }
+    #sc{
+        margin-right:5px !important;
+    }
+    .container-fluid{
+        background-image: url(./IMAGENES/Central/imagenCentral.png);
+        height: 70vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: relative;
+    }
+}
+@media screen and (min-width:581px) and (max-width:1200px) {
+    #nav a{
+        font-size: 15px;
+        font-weight:600;
+        margin-left: -15px;
+    }
+   
+}
+@media only screen and (min-width: 1200px) {
+    #nav a{
+        font-size: 35px;
+        font-weight:600;
+        }
+    #nav a img{
+        width: 300px;
+        height: 300px;
+    }
+}
+/**********nav items*********/
+
+
+
+
+/**********landing page items*********/
+#alma{
+    color: #fff;
+    font-size: 3.2rem;
+    font-weight: 100;
+    letter-spacing: 3px;
+    margin-top: 130px;
+    
+}
+
+#almap{
+    color: #fff;
+    font-size: 1.7rem;
+    font-weight: 100;
+    margin-top: 20px;
+    
+}
+
+#conocenos{
+  
+  float: right;
+  margin-top:30px;
+  margin-right: 150px;
+  padding: 15px 40px;
+  border-radius: 50px ;
+  background: #000;
+  opacity: 60%;
+  color: #fff !important;
+}
+
+@media screen and (min-width:320px) and (max-width:580px) {
+    #alma{
+        color: #fff;
+        font-size: 14px;
+        font-weight: 100;
+        letter-spacing: 2px;
+        margin-top: 15px;
+        }
+        #almap{
+            color: #fff;
+            font-size: 8px;
+            font-weight: 100;
+            margin-top: -20px;
+            }
+            #conocenos{
+                font-size: 8px;
+                float: right;
+                margin-top:-12px;
+                margin-right: 25%;
+                padding: 5px 10px;
+                border-radius: 50px ;
+                background: #000;
+                opacity: 60%;
+                color: #fff !important;
+              }
+   
+}
+
+@media only screen and (min-width: 1200px) {
+    
+}
+/**********landing page items*********/
+
+
+
+
+/**********first product items*********/
+#primera-distancia{
+    background: rgb(59, 59, 59);
+    height: 18vh;
+}
+#primera-distancia p{
+    color: #d5ac8c;
+    font-weight: 600;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 20px;
+  }
+
+#dulimg img{
+    
+    height: 70vh;
+    width: 55vw;
+    float: right;
+    margin-right: -8px
+}
+
+#dulce{
+    background: #000;
+    margin-left: -8px;
+    height: 70vh;
+}
+
+#dulce h3{
+    color: #d5ac8c;
+    margin-top: 70px;
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+
+#dulce p{
+    margin-top: 20px;
+    color: #fff;
+    margin-left: 80px;
+    width: 80%;
+}
+
+#dulce h6{
+    color: #d5ac8c;
+  margin-left: 5rem ;
+  margin-top: 20px;
+}
+
+#dulce .btn{
+    color: #d5ac8c;
+    border: 3px solid  #d5ac8c;
+    float: right;
+    margin-top: 2.5rem;
+    margin-right: 240px;
+    padding: 5px 25px;
+  }
+  @media screen and (min-width:320px) and (max-width:580px){
+    #primera-distancia{
+        background: rgb(59, 59, 59);
+        height: 6vh;
+    }
+    #primera-distancia p{
+        color: #d5ac8c;
+        font-weight: 600;
+        font-size: 20px;
+        text-align: center;
+        line-height: 10px;
+        }
+    
+    #dulimg img{
+        height: 30vh;
+        width: 50vw;
+        float: right;
+        }
+    
+    #dulce{
+        background: #000;
+        height: 30vh;
+    }
+    
+    #dulce h3{
+        color: #d5ac8c;
+        margin-top: 50px;
+        text-align: center;
+        letter-spacing: 2px;
+        font-weight: 400;
+        font-size: 8px;
+    }
+    
+    #dulce p{
+        margin-top: 20px;
+        color: #fff;
+        margin-left:25px;
+        font-size:6px;
+        
+    }
+    
+    #dulce h6{
+        color: #d5ac8c;
+        margin-left: 25px ;
+        margin-top: 10px;
+        font-size: 6px;
+    }
+    
+    #dulce .btn{
+        color: #d5ac8c;
+        border: 3px solid  #d5ac8c;
+        float: right;
+        margin-top: 1rem;
+        margin-right: 40%;
+        padding: 1px 6px;
+      }
+  }
+/**********first product items*********/
+
+
+
+
+/**********second product items*********/
+#azucar{
+    background: #000;
+    width: 50%;
+    height: 70vh;
+}
+
+#azucar h3{
+    color: #d5ac8c;
+    margin-top: 70px;
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+
+#azucar p{
+    margin-top: 20px;
+    color: #fff;
+    margin-left: 70px;
+    width: 72%;
+}
+
+#azucar h6{
+    color: #d5ac8c;
+    margin-left: 4.3rem ;
+    margin-top: 20px;
+}
+
+#azucar .btn{
+    color: #d5ac8c;
+    border: 3px solid  #d5ac8c;
+    float: right;
+    margin-top: 2.5rem;
+    margin-right: 240px;
+    padding: 5px 25px;
+  }
+
+#vaso{
+    margin-left: -5px;
+    background-image: url(IMAGENES/Productos/3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+@media screen and (min-width:320px) and (max-width:580px){
+
+    #azucar{
+        background: #000;
+        width: 50%;
+        height: 30vh;
+    }
+    
+    #azucar h3{
+        color: #d5ac8c;
+        margin-top: 50px;
+        text-align: center;
+        letter-spacing: 1px;
+        font-weight: 400;
+        font-size: 8px;
+    }
+    
+    #azucar p{
+        margin-top: 20px;
+        color: #fff;
+        margin-left: 70px;
+        width: 50%;
+        font-size:6px;
+        margin-left: 25%;
+    }
+    
+    #azucar h6{
+        color: #d5ac8c;
+        margin-left: 25% ;
+        margin-top: 20px;
+        font-size: 6px;
+    }
+    
+    #azucar .btn{
+        color: #d5ac8c;
+        border: 3px solid  #d5ac8c;
+        float: right;
+        margin-top: 1rem;
+        margin-right: 40%;
+        padding: 1px 6px;
+      }
+    
+    #vaso{
+        
+        background-image: url(IMAGENES/Productos/3.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        }
+}
+/**********second product items*********/
+
+
+
+
+/**********last product items*********/
+#maicena{
+    background-image: url(IMAGENES/Productos/Producto4b.png);
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+#maicena h4{
+    color: #6b431e;
+    margin-left: 6rem ;
+    padding-top: 4rem;
+    letter-spacing: 3px;
+    font-weight: 100;
+    font-size:30px;
+}
+
+#maicena p{
+    font-weight: 500;
+    color: #fff;
+    margin-left: 4rem;
+    font-size: 16.5px;
+    margin-top: 30px;
+}
+
+#maicena h6{
+    color: #6b431e;
+    margin-left: 4rem ;
+    font-weight: 700;
+    margin-top: 20px;
+}
+#fck{
+    margin-left: 15rem;
+    margin-top: 3rem;
+    color:#6b431e;
+    border: 3.5px solid #6b431e;
+    padding: 6px 25px;
+    font-weight: 700;
+}
+@media screen and (min-width:320px) and (max-width:580px){
+    #maicena{
+        
+        background-image: url(IMAGENES/Productos/Producto4b.png);
+        background-size: cover;
+        object-fit: contain;
+        background-repeat: no-repeat;
+        width: 105vw;
+        height: 40vh;
+        
+        
+        
+        
+    }
+    #maicena h4{
+        color: #6b431e;
+        margin-left: 30%;
+        padding-top: 10%;
+        letter-spacing: 1px;
+        font-weight: 100;
+        font-size:8px;
+    }
+    
+    #maicena p{
+        font-weight: 300;
+        color: #fff;
+        margin-left: 25%;
+        font-size: 6px;
+        margin-top: 10%;
+    }
+    
+    #maicena h6{
+        color: #6b431e;
+        margin-left: 25% ;
+        font-weight: 400;
+        margin-top: 10%;
+        font-size: 8px;
+    } 
+    #fck{
+        margin-left: 50%;
+        margin-top: 6%;
+        color:#6b431e;
+        border: 2.5px solid #6b431e;
+        padding: 1px 3px;
+        font-weight: 200;
+    }
+}
+/**********last product items*********/
+
+
+
+
+
+/**********Icon items section*********/
+
+#ico{
+    height: 60vh;
+   
+    background: rgb(43, 42, 42);
+    Background-size:contain;
+}
+
+#ico h3{
+    text-align: center;
+    color: #fff;
+    margin-top: 30px;
+}
+
+#ico h2{
+    text-align: center;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+#logos{
+    align-items: center;
+    text-align: center;
+    color: #bca177;
+    
+}
+
+#logos .list-inline-item{
+    border: 5px solid #bca177;
+    padding: 20px 20px;
+    border-radius: 50% 50%;
+
+}
+#logtxt{
+    color: #bca177;
+    align-items: center;
+    text-align: center;
+    margin-left: 10px;
+}
+@media screen and (min-width:320px) and (max-width:580px){
+    #ico{
+        height: 50vh;
+        background: rgb(47, 46, 46);
+        Background-size:contain;
+    }
+    
+    #ico h3{
+        text-align: center;
+        color: #fff;
+        margin-top: 20px;
+        font-size: 10px;
+    }
+    
+    #ico h2{
+        text-align: center;
+        color: #fff;
+        margin-bottom: 10px;
+        font-size:10px;
+    }
+    
+    #logos{
+        align-items: center;
+        text-align: center;
+        color: #bca177;
+        
+    }
+    
+    #logos .list-inline-item{
+        border: 5px solid #bca177;
+        padding: 6px 6px;
+        border-radius: 50% 50%;
+        }
+    #logtxt{
+        color: #bca177;
+        align-items: center;
+        text-align: center;
+        margin-left: 1px;
+        font-size: 8px;
+    }
+}
+/**********Icon items section*********/
+
+
+
+
+
+
+/**********contact form section*********/ 
+input[type=submit] {
+    background-color: transparent;
+    color: #856c4f;
+    padding: 6px 10px;
+    border: 3px solid #856c4f;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 1.5rem;
+    margin-left: 17rem;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+    color: #fff;
+  }
+
+
+#form{
+    background: rgb(234, 231, 231);
+    color: #856c4f;
+}
+#form h5{
+    color: #856c4f;
+    
+    font-size: 16px;
+    padding-top: 2rem;
+    padding-left: 7rem;
+    padding-right: 7rem;
+}
+
+#form .form-control{
+    width:61%;
+    margin-left: 7rem;
+    background:#856c4f;
+    color: #fff;
+    
+    
+}
+#form label{
+    padding-top: 1rem;
+    padding-left: 7rem;
+    padding-right: 7rem;
+}
+@media screen and (min-width:320px) and (max-width:580px){
+    #fsec{
+        height: 50vh;
+    }
+    #fsec img{
+        height: 50vh;
+    }
+    input[type=submit] {
+        background-color: transparent;
+        color: #856c4f;
+        padding: 1px 2px;
+        border: 2px solid #856c4f;
+        border-radius: 4px;
+        cursor: pointer;
+        margin-top: 5px;
+        margin-left: 2rem;
+    }
+    
+    input[type=submit]:hover {
+        background-color: #45a049;
+        color: #fff;
+      }
+   
+    
+    #form{
+        background: rgb(234, 231, 231);
+        color: #856c4f;
+        height:50vh;
+    }
+    #form h5{
+        color: #856c4f;
+        margin-bottom: -10px;
+        font-size: 6px;
+        padding-top: 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    
+    #form .form-control{
+        width:61%;
+        margin-left: 1rem;
+        margin-top: -10px;
+        background:#856c4f;
+        color: #fff;
+       
+        padding: 0;
+        height: 20px !important;
+        }
+    #form label{
+        margin-top:-10px;
+        margin-bottom: 10px;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        font-size: 5px;
+    }
+    
+}
+/**********contact form section*********/ 
+
+
+
+
+
+
+/**********Receta cards section*********/ 
+#recet{
+    background:rgb(38, 37, 37);
+}
+
+#recet h3{
+    color: #fff;
+    text-align: center;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    font-size: 20px;
+
+}
+
+.card{
+    align-items: center;
+    background: #bca177;
+}
+.card h4{
+    text-align: center;
+    color:#6b431e;
+}
+
+.card p{
+    float:left;
+    margin-left: 16px;
+    color: rgb(239, 234, 234);
+    font-size: 15px;
+}
+.card a{
+    color:#6b431e;
+    border: 3px solid #6b431e;
+    padding: 2px 6px;
+    font-size: 12px;
+}
+@media screen and (min-width:320px) and (max-width:580px){
+    #recet{
+        background:rgb(38, 37, 37);
+        height: 40vh;
+    }
+    
+    #recet h3{
+        color: #fff;
+        text-align: center;
+        margin-top:.5rem;
+        margin-bottom: .5rem;
+        font-size: 10px;
+    
+    }
+    
+    .card{
+        align-items: center;
+        background: #bca177;
+        height: 120px !important;
+        width: 25vw;
+        margin-left: -20px;
+    }
+    .card h4{
+        text-align: center;
+        color:#6b431e;
+        font-size: 8px;
+        margin-top: -15px;
+    }
+    
+    .card p{
+        float:left;
+        text-align:start;
+        margin-left: -2px;
+        color: rgb(239, 234, 234);
+        font-size: 4px;
+        margin-top: -5px;
+        margin-bottom: -30px;
+    }
+    .card a{
+        color:#6b431e;
+        border: 3px solid #6b431e;
+        padding: 1px 3px;
+        font-size: 6px;
+        
+    }
+}
+/**********Receta cards section*********/ 
+
+
+
+
+
+
+
+/**********footer section*********/ 
+#footer{
+    background:#000;
+    display:relative;
+}
+
+#footer img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20%;
+}
+
+#title{
+    color:#856c4f !important;
+    list-style: none;
+}
+
+#footer li{
+    color: #fff;
+    font-weight: 600;
+    list-style: none;
+    margin-top: 1rem;
+    
+
+}
+
+#footer a{
+    text-decoration: none;
+    color: #fff;
+}
+@media screen and (min-width:320px) and (max-width:580px){
+    #footer{
+        background:#000;
+        display:relative;
+        height: 30vh;
+    }
+    
+    #footer img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50%;
+        height: 50px;
+        width: 50px;
+    }
+    
+    #title{
+        color:#856c4f !important;
+        list-style: none;
+    }
+    
+    #footer li{
+        color: #fff;
+        font-weight: 300;
+        list-style: none;
+        margin-top: .5rem;
+        font-size: 6px;
+        
+    
+    }
+    
+    #footer a{
+        text-decoration: none;
+        color: #fff;
+    }
+    #footer iframe{
+        height: 50px !important;
+        width: 60px;
+    }
+}
+/**********footer section*********/ 
+
+
+  
